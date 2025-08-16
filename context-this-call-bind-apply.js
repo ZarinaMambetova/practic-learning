@@ -49,3 +49,22 @@ person.logInfo.call(lena, 'jod', 'number')
 // Если использовать applay, то вторым параметром должен быть массив
 
 person.logInfo.call(lena, ['jod', 'number'])
+
+const array = [1, 2, 3, 4, 5];
+
+// function multBy(arr, n) {
+//   return arr.map(function (i) {
+//     return i * n;
+//   })
+// }
+// multBy(array, 20)
+// Можно написать так. о можно прописать эту функцию в прототипе и использовать для любого массива.
+// Здесь вместо передаваемого arr используется this, так как контекстом будет объект, с которым мы вызовем функцию - чать функции слева:
+
+Array.prototype.multyBy = function (n) {
+  return this.map(function (i) {
+    return i * n;
+  })
+}
+
+console.log(array.multBy(20))
