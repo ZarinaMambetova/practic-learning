@@ -1,3 +1,6 @@
+// Промисы - это по сути оберка, которая добавляет удобства для написания кода
+//
+
 console.log('data...')
 
 const p = new Promise(function (resolve, reject) {
