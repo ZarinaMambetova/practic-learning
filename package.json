@@ -1,0 +1,26 @@
+{
+  "name": "practic-learning",
+  "version": "1.0.0",
+  "description": "Jest test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZarinaMambetova/practic-learning.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "unit",
+    "testing",
+    "jest"
+  ],
+  "author": "Mambetova Zarina <zarina.mambetova84@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZarinaMambetova/practic-learning/issues"
+  },
+  "homepage": "https://github.com/ZarinaMambetova/practic-learning#readme"
+}
