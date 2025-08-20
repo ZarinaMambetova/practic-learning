@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ZarinaMambetova/practic-learning/issues"
   },
-  "homepage": "https://github.com/ZarinaMambetova/practic-learning#readme"
+  "homepage": "https://github.com/ZarinaMambetova/practic-learning#readme",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
 }

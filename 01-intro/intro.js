@@ -4,7 +4,7 @@ function expect(value) {
       if (value === exp) {
         console.log('Success')
       } else {
-        console.log(`Value is ${value}`)
+        console.error(`Value is ${value}, but exp ${exp}`)
       }
     }
   }
@@ -13,4 +13,6 @@ function expect(value) {
 
 const sum = (a, b) => a + b
 const nativeNull = () => null
-console.log(sum(41, 1))
+
+module.exports = { sum, nativeNull }
+// expect(sum(41, 1)).toBe(42)
