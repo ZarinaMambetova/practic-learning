@@ -48,7 +48,7 @@ person.logInfo.call(lena, 'jod', 'number')
 
 // Если использовать applay, то вторым параметром должен быть массив
 
-person.logInfo.call(lena, ['jod', 'number'])
+person.logInfo.applay(lena, ['jod', 'number'])
 
 const array = [1, 2, 3, 4, 5];
 
